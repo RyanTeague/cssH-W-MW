@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--CSS Height, Width and Max-width
+    
+        The CSS height and width properties are used to set the height and
+        width of an element
+
+        The CSS max-width property is used to set the maximum width of an 
+        element.
+    -->
+
+    <!--CSS Setting height and width
+    
+        The height and width properties are used to set the height and width of 
+        an element.
+
+        The height and width properties do not include padding, borders, or
+        margins. It set the height/width of athe area inside the padding, border, and
+        margin of the element
+    -->
+
+    <!--CSS hkeight and width Values
+    
+        The height and width properties may have the following values:
+
+            . auto - This is default. The browser calculates the height and width
+            . length - Defines the height/width in px, cm, etc.
+            . % - Defines the height/width in percent of the containg block
+            . initial - Sets the height/width to its default value
+            . inherit - The height/width will be inherited form its parent value
+    -->
+
+    <!--CSS height and width Examples
+    
+        Set the height and width of a <div> element:
+    -->
+
+    <h2>Set the height and width of an element</h2>
+
+    <div>This div element has a height of 200px and a width of 50%.</div>
+    
+    <hr>
+
+    <h2>Set the height and width of an element</h2>
+
+    <div>This div element has a height of 100px and a width of 500px.</div>
+
+
+    <!--Note: Rememeber that the height and width properties do not include
+    padding, borders, or margins! They set the heigth/width of the area inside
+    the padding, border, and margin of the element!-->
+
+    <!--Setting max-width
+    
+        The max-width property isused to set the maximum width of an element.
+
+        The max-width can be specified in length values, like px, cm, etc., or in
+        percent (%) of the containg block, or set to none (this is default. Means
+        that there is no maximum width).
+
+        The problem with the <div> above occures when the browser window is 
+        smaller than the width of the element (500px). The browser thent adds a 
+        horizontal scrollbar to the page.
+
+        Using max-width instead, in this situation, will improve the browser's
+        handing of small windows.
+
+        Tip: Drag the browser window to smaller than 500px wide, to see the
+        difference between the two divs!
+
+        Note: If you for some reason use both the width property and the max-width
+        property on the same element, and the value of the width property
+        is larger than the max-width property; the max-width prperty will be
+        used (and the width property will be ignored).
+    -->
+
+    <h2>Set the max-width of an element</h2>
+
+<div>This div element has a height of 100px and a max-width of 500px.</div>
+
+<p>Resize the browser window to see the effect.</p>
+
+<hr>
+
+<!--try it yourself - Examples
+
+    Set the height and width of elements
+    This example demonstrates how to set the height and width of different elements. 
+    
+    Set the height and width of an image using percent
+    This example demonstrates how to set the height and width of an image using a percent value.
+
+    Set min-width and max-width of an element
+    This example demonstrates how to set a minimum width and a maximum width of an element using a pixel value.
+
+    Set min-height and max-height of an element
+    This example demonstrates how to set a minimum height and a maximum height of an element using a pixel value.
+-->
+
+</body>
+</html>
